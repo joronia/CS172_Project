@@ -76,11 +76,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddDeck.cpp" />
     <ClCompile Include="MakeDeck.cpp" />
     <ClCompile Include="Notecard.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddDeck.h" />
     <ClInclude Include="MakeDeck.h" />
     <ClInclude Include="Notecard.h" />
   </ItemGroup>

@@ -1,5 +1,5 @@
-#ifndef __MAKEDECK_H__
-#define __MAKEDECK_H__
+#ifndef __DECK_H__
+#define __DECK_H__
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -7,12 +7,12 @@
 #include "Notecard.h"
 using namespace std;
 
-class MakeDeck {
+class Deck {
 private:
 	vector<Notecard> _deck;
 
 public:
-	MakeDeck(string);
+	Deck(string);
 
 	void addCard(Notecard);
 
@@ -21,6 +21,8 @@ public:
 	void removeCard(int);
 
 	Notecard getCard(int);
+
+	int getSize();
 };
 
 #endif
