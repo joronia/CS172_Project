@@ -1,3 +1,5 @@
+#ifndef __ADDDECK_H__
+#define __ADDDECK_H__
 #include "Notecard.h"
 #include "MakeDeck.h"
 #include <iostream>
@@ -6,4 +8,8 @@
 #include <fstream>
 using namespace std;
 
-void outputuser();
+void outputUser(int);
+
+void readDeckNames();
+
+#endif
